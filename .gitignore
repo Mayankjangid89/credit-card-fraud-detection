@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Model files (too large for GitHub)
+model/*.h5
+model/*.pkl
+
+# Data files (too large - 150MB)
+data/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment
+.env
